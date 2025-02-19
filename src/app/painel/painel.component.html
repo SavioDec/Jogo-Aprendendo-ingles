@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="h-100 p-5 text-bgZ-dark border rounded-3">
+    <div class="row">
+      <div class="col-sm-6">
+        <app-progresso [progresso]="progresso"></app-progresso>
+      </div>
+      <div class="col-sm-6">
+        <div class="d-flex justify-content-end">
+          <app-tentativas [tentativas]="tentativas"></app-tentativas>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h6>{{ instrucao }}</h6>
+          <p>{{ rodadaFrase.fraseEng }}</p>
+
+          <div class="form-floating">
+            <textarea
+              class="form-control text-bg-dark"
+              rows="3"
+              style="height: 100px"ddsadsa
+              (input)="atualizaResposta($event)"
+              [value]="resposta"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="d-flex justify-content-end">
+            <button
+              type="button"
+              class="btn btn-outline-light distance"
+              (click)="verificarResposta()"
+            >
+              Verificar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
