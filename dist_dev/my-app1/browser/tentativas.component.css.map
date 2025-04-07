@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/tentativas/tentativas.component.css"],
+  "sourcesContent": ["img {\n    padding: 2px;\n}"],
+  "mappings": ";AAAA;AACI,WAAS;AACb;",
+  "names": []
+}

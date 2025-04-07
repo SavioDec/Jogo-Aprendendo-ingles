@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/painel/painel.component.css"],
+  "sourcesContent": [".distance{\n    margin-top: 20px;\n}\n.container{\n    margin-top: 20px;\n    padding-top: 10px;\n    padding-bottom: 30px;\n}"],
+  "mappings": ";AAAA,CAAC;AACG,cAAY;AAChB;AACA,CAAC;AACG,cAAY;AACZ,eAAa;AACb,kBAAgB;AACpB;",
+  "names": []
+}
